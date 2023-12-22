@@ -4,10 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css" />
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
     <title>Fit Friend</title>
 </head>
 <body>
+    <div id="overlay"></div>
+    <div id="mobile-menu" class="mobile-main-menu">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Mission</a></li>
+            <li><a href="#">Shop</a></li>
+
+            <li class="mobile-only"><a href="workouts.html">Workouts</a></li>
+            <li class="mobile-only"><a href="create-workout.html">Add Workout</a></li>
+            <li class="mobile-only"><a href="instruction.html">Instructionals</a></li>
+            <li class="mobile-only"><a href="training-programs.html">Training Programs</a></li>
+            <li class="mobile-only"><a href="meetups.html">Meetups</a></li>
+            <li class="mobile-only"><a href="trainers.html">Trainers</a></li>
+            <li class="mobile-only"><a href="profile.html">My Profile</a></li>
+        </ul>
+    </div>
     <header class="main-header">
         <div class="logo">
             <a href="index.html"></a>
@@ -26,14 +44,21 @@
         </nav>
     </header>
 
+    <!-- Hamburger Menu -->
+    <button id="menu-btn" class="hamburger" type="button">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+    </button>
+
     <!-- Section A -->
     <section class="section-a">
         <div class="section-inner">
-            <h4>Some text</h4>
+            <h4>Get workouts created by others and based on your preferred equipment, gym, or exercises</h4>
             <h2>My Workouts</h2>
             <a href="#" class="btn">
                 <div class="hover"></div>
-                <span>Rewatch</span>    
+                <span>Get Workout</span>    
             </a>
         </div>
 
@@ -51,11 +76,11 @@
 
     <section class="section-b">
         <div class="section-inner">
-            <h4>Some text</h4>
+            <h4>Add your own workouts for others to use</h4>
             <h2>Create New Workout</h2>
             <a href="#" class="btn">
                 <div class="hover"></div>
-                <span>Rewatch</span>    
+                <span>Add Workout</span>    
             </a>
         </div>
 
@@ -73,11 +98,11 @@
 
     <section class="section-c">
         <div class="section-inner">
-            <h4>Some text</h4>
+            <h4>Watch videos demonstrating proper technique for certain movements and machines</h4>
             <h2>Instructionals</h2>
             <a href="#" class="btn">
                 <div class="hover"></div>
-                <span>Rewatch</span>    
+                <span>Watch</span>    
             </a>
         </div>
 
@@ -95,11 +120,11 @@
 
     <section class="section-d">
         <div class="section-inner">
-            <h4>Some text</h4>
+            <h4>Get personalize training programs to meet your fitness goals</h4>
             <h2>Training Programs</h2>
             <a href="#" class="btn">
                 <div class="hover"></div>
-                <span>Rewatch</span>    
+                <span>Powered by AI</span>    
             </a>
         </div>
 
@@ -117,11 +142,11 @@
 
     <section class="section-e">
         <div class="section-inner">
-            <h4>Some text</h4>
+            <h4>On vacation, traveling or business or just want to workout with others at your home gym</h4>
             <h2>Meetups</h2>
             <a href="#" class="btn">
                 <div class="hover"></div>
-                <span>Rewatch</span>    
+                <span>Meetup</span>    
             </a>
         </div>
 
@@ -139,13 +164,25 @@
 
     <section class="section-f">
         <div class="section-inner">
-            <h4>Some text</h4>
-            <h2>Trainers</h2>
+            <h4>Get connected with a professional in your area</h4>
+            <h2>Connect with Trainers</h2>
             <a href="#" class="btn">
                 <div class="hover"></div>
-                <span>Rewatch</span>    
+                <span>Search</span>    
             </a>
         </div>
     </section>
+
+    <footer>
+        <ul>
+            <li>Fit Friend &copy; 2024</li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Partners</a></li>
+        </ul>
+    </footer>
 </body>
 </html>
